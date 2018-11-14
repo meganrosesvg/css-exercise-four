@@ -6,24 +6,17 @@ body {
   background-color: #dadada;
   font-size: 10px;
   margin: auto;
-  width: 50%;
 }
 
 .baku {
   background-image: url("baku.jpg");
   position: relative;
-  width: 48%;
+  width: 40%;
   margin: 2%;
-}
-
-.container {
-  margin: auto;
-  width: 100%;
 }
 
 div {
   background-color: #dadada;
-  float: left;
   margin: auto;
   width: 100%;
   padding: 25px;
@@ -34,8 +27,8 @@ h1 {
   font-family: sans-serif;
   font-variant: small-caps;
   padding: 3%;
-  margin: auto;
-  width: 50%;
+  margin: 0;
+  width: 100%;
 }
 
 h2 {
@@ -50,32 +43,34 @@ h2 {
 .london {
   background-image: url("london.png");
   position: relative;
-  width: 48%;
+  width: 40%;
   margin: 2%
 }
 
 .madrid {
   background-image: url("madrid.jpg");
   position: relative;
-  width: 48%;
+  width: 40%;
   margin: 2%;
 }
 
 .preview {
-  padding: 30%;
-  background-size: contain;
+  padding-top: 25%;
+  background-size: cover;
+  display: inline-block;
+  height: 100px;
 }
 
 .rome {
   background-image: url("rome.jpg");
   position: relative;
-  width: 48%;
+  width: 40%;
   margin: 2%;
 }
 
-@media screen and (max-width: 575px) {
-   .container {
+@media all and (min-width: 575px) {
+   .div {
     margin: 1%;
-    width: 40%;
+    width: 60%;
   }
 }
